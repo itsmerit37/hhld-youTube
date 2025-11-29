@@ -60,10 +60,10 @@ const Room = () => {
       {/* External video (YouTube) */}
       <div className="mb-6">
         <ReactPlayer
-          url="https://www.youtube.com/watch?v=LXb3EKWsInQ"
+          src="https://www.youtube.com/watch?v=LXb3EKWsInQ"
           width="640px"
           height="360px"
-          controls
+          controls={true}
         />
       </div>
 

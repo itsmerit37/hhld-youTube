@@ -1,4 +1,4 @@
-import Image from "next/image";
+"use client";
 import Room from "./pages/room";
 
 export default function Home() {
